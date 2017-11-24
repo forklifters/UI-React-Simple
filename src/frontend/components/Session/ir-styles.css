@@ -1,0 +1,26 @@
+
+.main {
+  display: inline-block;
+  margin-left: 25px;
+  overflow: hidden;
+  vertical-align: middle;
+  height: 36px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.chip {
+  margin: 2px !important;
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.avatar {
+  background-color: #000 !important;
+}
+
+.exit {
+  vertical-align: top;
+  color: #fff !important;
+}

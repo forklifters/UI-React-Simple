@@ -1,0 +1,54 @@
+.icon {
+  font-size: 65px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 6px 15px 6px 15px;
+}
+
+.main {
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.main[type=info], .main[type=loading] {
+  border: 1px solid #3c6cff;
+}
+
+.main[type=error] {
+  border: 1px solid rgb(222, 50, 38);
+}
+
+.main[type=warning] {
+  border: 1px solid #f9a12d;
+}
+
+.main[type=success] {
+  border: 1px solid #4bab4b;
+}
+
+.text {
+  font-size: 15px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  padding: 10px;
+  margin: 0;
+  width: 471px;
+}
+
+.icon[type=info], .icon[type=circular] {
+  color: #3c6cff
+}
+
+.icon[type=error] {
+  color: #f92d2d
+}
+
+.icon[type=warning] {
+  color: #f9a12d
+}
+
+.icon[type=success] {
+  color: #4bab4b
+}

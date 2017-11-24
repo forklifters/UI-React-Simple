@@ -1,0 +1,20 @@
+.menu {
+  display: inline-block;
+  text-align: center;
+  padding: 0 5px;
+  width: 29px;
+  text-decoration: none;
+  margin: 3px;
+  border: 1px solid #303f9f;
+}
+
+.main {
+  text-align: center;
+}
+
+.btn {
+  margin-left: 50px;
+}
+.total {
+  margin-left: 50px;
+}

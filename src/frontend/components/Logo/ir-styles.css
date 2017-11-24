@@ -1,0 +1,29 @@
+.logo {
+  display: inline-block;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 3px #ddd;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+.img {
+  height: 80px;
+  float: left;
+  margin: 0 12px 0 15px;
+}
+
+.title {
+  color: #000;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 25px;
+  line-height: 27px;
+}
+
+.subtitle {
+  color: #333;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 0
+}

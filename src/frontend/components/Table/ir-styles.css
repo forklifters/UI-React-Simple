@@ -1,0 +1,52 @@
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.main {
+  min-width: 600px;
+  padding: 0 30px;
+  margin: 24px 30px 0 60px;
+}
+
+.minHeight {
+  composes: main;
+  min-height: 100px;
+}
+
+.table {
+  width: 100%;
+  font-size: 1.1rem;
+  color: #757575;
+  text-align: left;
+  border-spacing: 0;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.table tr {
+  height: 48px;
+  line-height: 48px;
+}
+
+.table tr:hover td {
+  background: #fafafa;
+  color: #000;
+  cursor: pointer;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table td, .table th {
+  position: relative;
+  padding: 0 1.8rem;
+  border-bottom: 1px solid rgba(0,0,0,.12);
+}
+
+.table td {
+  padding: 5px 1.8rem;
+  line-height: 23px;
+}

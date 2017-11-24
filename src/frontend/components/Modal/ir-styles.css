@@ -1,0 +1,30 @@
+.main {
+  text-align: center;
+}
+
+.list {
+  margin: 20px 0  30px !important;
+}
+
+.list li {
+  text-align: center;
+}
+
+.list span {
+  font-size: 21px !important;
+}
+
+.icon {
+  font-size: 40px;
+  display: block;
+}
+
+.on {
+  composes: icon;
+  color: #4bab4b !important;
+}
+
+.off {
+  composes: icon;
+  color: rgb(222, 50, 38) !important;
+}
