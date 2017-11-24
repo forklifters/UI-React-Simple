@@ -50,6 +50,6 @@ Open the browser at http://localhost:8080 and use any `user/password` to log in.
 
 ### Deploy
 
-Deploy a distribution version in the http://irespond.surge.sh domain
+Deploy a distribution version in the surge.sh
 
     npm run deploy
