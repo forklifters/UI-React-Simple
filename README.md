@@ -10,6 +10,8 @@ This repository holds the User Interface of the app using React components.
    - `/logs` returns the list of logs
    - `/nodes` returns the list of Nodes
 
+![Demonstration Screencast](http://recordit.co/Y1ie0o56AO.gif)
+
 It's coded on **TypeScript** with **[JavaScript Standard Style](https://standardjs.com/)** and it's built with **Webpack**.
 
 The stack is:
