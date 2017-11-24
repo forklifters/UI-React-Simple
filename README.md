@@ -3,15 +3,6 @@ UI React Simple App
 
 This repository holds the User Interface of the app using React components.
 
- - Authentication system using JWT
- - Simple routing system
- - Requires three Server API End-points
-   - `/login` returns the user data
-   - `/logs` returns the list of logs
-   - `/nodes` returns the list of Nodes
-
-![Demonstration Screencast](http://recordit.co/Y1ie0o56AO.gif)
-
 It's coded on **TypeScript** with **[JavaScript Standard Style](https://standardjs.com/)** and it's built with **Webpack**.
 
 The stack is:
@@ -19,6 +10,17 @@ The stack is:
   - **React toolbox UI components**
   - **CSS Modules**
   - **postCSS**
+
+![Demonstration Screencast](http://recordit.co/Y1ie0o56AO.gif)
+
+ - Simple routing system
+ - Redux actions & reducers system
+ - Authentication system using JWT
+ - Uses next Server API End-points
+
+   - `/login` receives the params  `user`, `pwd` and `token` to return the user
+   - `/nodes` & `/logs` both receives the params `_page` and `_limit` to return the list of Nodes or Logs
+
 
 ## NPM Scripts
 
